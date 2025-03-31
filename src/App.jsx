@@ -3,7 +3,6 @@ import Navbar from './components/Navbar';
 import BuildTable from './components/Table';
 import ShowGraph from './components/lineCharts/BuildGraph';
 import ShowBarGraph from './components/barCharts/BuildBarChart';
-import Input from './components/Input';
 import Stats from './components/Stats';
 import './App.css'
 
@@ -13,15 +12,6 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="container">
-        <div className="grid">
-          <div className="row align-items-centre">
-            <div className="col-md-12 input-box p-3">
-              <Input />
-            </div>
-          </div>
-        </div>
-      </div>
       <div className="grid">
           <div className="row align-items-centre">
             <div className="col-md-12 input-box p-3">
